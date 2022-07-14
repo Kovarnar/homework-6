@@ -25,6 +25,7 @@ body {
     max-width: 1170px;
     margin: 35px auto;
 }
+/*------title---------*/
 .main h2 {
     font-size: 1.3125rem;
     line-height:2;
@@ -32,6 +33,7 @@ body {
 .main h2 .wi {
     font-size: 1.6rem;
 }
+/*----------content--------------*/
 .main .list {
     margin: 35px 0;
     border: 2px solid #fff;
