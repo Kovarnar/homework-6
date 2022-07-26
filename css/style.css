@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     transition: all .1s ease-in;
+    line-height: 1;
 }
 .visually-hidden {
     position: absolute;
@@ -29,13 +30,14 @@ body {
 .main h2 {
     font-size: 1.3125rem;
     line-height:2;
+    margin-bottom: 35px;
 }
 .main h2 .wi {
     font-size: 1.6rem;
 }
 /*----------content--------------*/
 .main .list {
-    margin: 35px 0;
+    margin-bottom: 35px;
     border: 2px solid #fff;
     font-size: 0;
 }
