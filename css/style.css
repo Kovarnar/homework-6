@@ -15,7 +15,7 @@
 }
 body {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     border: 25px solid #2B81AC;
     background-color: #3399CC;
     color: #fff;
@@ -23,16 +23,18 @@ body {
     font-size: 16px;
 }
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 35px auto;
+    padding: 0 15px;
 }
 /*------title---------*/
-.main h2 {
+.main .main-title {
+    display: block;
     font-size: 1.3125rem;
-    line-height:2;
+    line-height: 2;
     margin-bottom: 35px;
 }
-.main h2 .wi {
+.main span .wi {
     font-size: 1.6rem;
 }
 /*----------content--------------*/
@@ -44,25 +46,26 @@ body {
 li.list-item {
     display: inline-block;
     width: 25%;
-    height: 147px;
+    min-height: 147px;
     border: 2px solid #fff;
     font-size: 1.375rem;
     text-align: center;
+    padding: 30px 10px;
 }
 li.list-item__2 {width: 50%;}
 li.list-item__4 {width: 100%;}
-.lisbon {background-color: rgb(51, 153, 204);}
-.paris {background-color: rgb(51, 204, 204);}
-.belgrade {background-color: #996699;}
-.venice {background-color: #C24747;}
-.tel-avive {background-color: #E2674A;}
-.cair {background-color: #FFCC66;}
-.new-york {background-color: #99CC99;}
-.new-delhi {background-color: #669999;}
-.san-francisco {    background-color: #CC6699;}
-.tokyo {background-color: #339966;}
-.sydney {background-color: #666699;}
-li.list-item h3 {margin: 31px 0 15px;}
+.blue {background-color: rgb(51, 153, 204);}
+.azure {background-color: rgb(51, 204, 204);}
+.purple {background-color: #996699;}
+.red {background-color: #C24747;}
+.coral {background-color: #E2674A;}
+.yellow {background-color: #FFCC66;}
+.litegreen {background-color: #99CC99;}
+.green-gray {background-color: #669999;}
+.pink {background-color: #CC6699;}
+.green {background-color: #339966;}
+.violet {background-color: #666699;}
+li.list-item h3 {margin-bottom: 15px;}
 li.list-item p {
     display: flex;
     align-items: center;
